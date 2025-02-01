@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit">
+    <scenes>
+        <scene sceneID="watch-scene">
+            <objects>
+                <interfaceController id="watchController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="safeArea" id="safe-area"/>
+                    </layoutGuides>
+                    <view>
+                        <label text="Radio Player"/>
+                        <button title="▶️ Play" action="playButtonTapped"/>
+                        <button title="⏹ Stop" action="stopButtonTapped"/>
+                    </view>
+                </interfaceController>
+            </objects>
+        </scene>
+    </scenes>
+</document>
